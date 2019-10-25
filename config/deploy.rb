@@ -9,9 +9,9 @@ set :user,            'ubuntu'
 set :use_sudo,        false
 
 # Deploy Config
-set :application,     '/home/ubuntu/project_list'
+set :application,     'project_list'
 set :deploy_via,      :remote_cache
-set :deploy_to,       "/#{fetch(:application)}"
+set :deploy_to,       "/home/ubuntu/#{fetch(:application)}"
 set :keep_releases, 3
 
 # Application Config
