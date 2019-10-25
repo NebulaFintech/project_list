@@ -3,6 +3,7 @@
 # Github Config
 set :repo_url, 'https://nebulafintechmu:mU7U4K5aAtVueXqj@github.com/NebulaFintech/project_list.git'
 set :branch, :master
+set :rvm_bin_path, "/usr/share/rvm/bin/rvm"
 
 # User Config
 set :user,            'ubuntu'
