@@ -1,9 +1,3 @@
-# frozen_string_literal: true
-
-server 'i_project_list01', port: 22, roles: %i[web app db], primary: true
-
-set :rails_env,       :production
-
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
@@ -12,6 +6,8 @@ set :rails_env,       :production
 # server "example.com", user: "deploy", roles: %w{app db web}, my_property: :my_value
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
+
+
 
 # role-based syntax
 # ==================
@@ -25,6 +21,8 @@ set :rails_env,       :production
 # role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
 # role :db,  %w{deploy@example.com}
 
+
+
 # Configuration
 # =============
 # You can set any configuration variable like in config/deploy.rb
@@ -32,6 +30,8 @@ set :rails_env,       :production
 # For available Capistrano configuration variables see the documentation page.
 # http://capistranorb.com/documentation/getting-started/configuration/
 # Feel free to add new variables to customise your setup.
+
+
 
 # Custom SSH Options
 # ==================
