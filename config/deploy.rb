@@ -5,7 +5,7 @@ set :repo_url, 'https://nebulafintechmu:mU7U4K5aAtVueXqj@github.com/NebulaFintec
 set :branch, :master
 
 # User Config
-set :user,            'ec2-user'
+set :user,            'ubuntu'
 set :use_sudo,        false
 
 # Deploy Config
