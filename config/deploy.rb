@@ -6,6 +6,7 @@ set :branch, :master
 # set rvm custom path (which rvm)
 set :rvm_type, :user
 set :rvm_custom_path, "/usr/share/rvm/"
+set :linked_files, %w{config/master.key}
 
 # User Config
 set :user,            'ubuntu'
